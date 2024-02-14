@@ -6,7 +6,8 @@ const urlModule = require("url");
 const urls = process.argv.slice(2);
 if (urls.length === 0) {
   console.error("Error: URLs array is empty. Please provide URLs to download.");
-  process.exit(1);
+  process.exit(1); 
+  // 3rfr2g4tg24
 }
 
 urls.forEach((url) => {
